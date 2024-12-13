@@ -1,0 +1,54 @@
+/* Classic Patriotic */
+.primary{
+    background-color: #001F54;
+    background-color: #B22234;
+}
+.accent{
+    background-color: #FFFFFF;
+    background-color: #FFD700;
+    background-color: #D4AF37; /*cuz the other gold is kinda ugly*/
+}
+
+/* Modern Minimalist */
+.primary{
+    background-color: #004D40;
+    background-color: #FF6F61;
+}
+.accent{
+    background-color: #F4F4F4;
+    background-color: #FFFFFF;
+}
+
+/* Energetic and Youthful */
+.primary{
+    background-color: #87CEEB;
+    background-color: #FFD700;
+}
+.accent{
+    background-color: #32CD32;
+    background-color: #FFFFFF;
+}
+
+/* Elegant and Professional */
+.primary{
+    background-color: #333333;
+    background-color: #800020;
+}
+.accent{
+    background-color: #FFFFF0;
+    background-color: #D4AF37;
+}
+
+/* ENDED UP GOING WITH */
+.primary{
+    background-color: #001F54;
+    background-color: #B22234;
+    background-color: #333333;
+    background-color: #800020;
+}
+.accent{
+    background-color: #FFFFFF;
+    background-color: #FFD700;
+    background-color: #FFFFF0;
+    background-color: #D4AF37;
+}
