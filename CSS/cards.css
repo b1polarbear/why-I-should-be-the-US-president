@@ -9,15 +9,14 @@
 /* Card styles */
 .card {
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #333333;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, height 0.3s ease;
-    height: 300px; /* Default height */
+    height: 300px;
     position: relative;
-    cursor: pointer;
 }
 
 .card:hover {
@@ -26,7 +25,7 @@
 
 .card.expanded {
     height: 400px; /* Expanded height */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Image */
@@ -53,9 +52,10 @@
 /* Button */
 .card-button {
     display: inline-block;
-    background-color: #4A90E2;
-    color: white;
+    background-color: #B22234;
+    color: #35000d;
     text-decoration: none;
+    text-transform: uppercase;
     padding: 5px 20px;
     border-radius: 5px;
     font-size: 1em;
@@ -71,7 +71,6 @@
     font-size: 1em;
     color: #333;
     padding: 10px;
-    text-align: left !important;
 }
 
 /* Show extra content when card is expanded */

@@ -1,4 +1,7 @@
+.center{
+    text-align: center;
+}
+
 body{
-    background-image: url("/why-I-should-be-the-US-president/IMAGES/AllPageImages/image.png");
-    height: 600px;
+    font-family: Arial, sans-serif;
 }

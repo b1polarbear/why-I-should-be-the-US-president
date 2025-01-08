@@ -1,54 +1,72 @@
-/* Classic Patriotic */
-.primary{
-    background-color: #001F54;
-    background-color: #B22234;
-}
-.accent{
-    background-color: #FFFFFF;
-    background-color: #FFD700;
-    background-color: #D4AF37; /*cuz the other gold is kinda ugly*/
-}
-
-/* Modern Minimalist */
-.primary{
-    background-color: #004D40;
-    background-color: #FF6F61;
-}
-.accent{
-    background-color: #F4F4F4;
-    background-color: #FFFFFF;
-}
-
-/* Energetic and Youthful */
-.primary{
-    background-color: #87CEEB;
-    background-color: #FFD700;
-}
-.accent{
-    background-color: #32CD32;
-    background-color: #FFFFFF;
-}
-
-/* Elegant and Professional */
-.primary{
-    background-color: #333333;
-    background-color: #800020;
-}
-.accent{
-    background-color: #FFFFF0;
-    background-color: #D4AF37;
-}
-
 /* ENDED UP GOING WITH */
-.primary{
+.primary{ 
+    /* Navy Blue */
     background-color: #001F54;
+    /* Navigation and Footer background
+    Text on this can be white or gold */
+
+
+    /* Crimson Red */
     background-color: #B22234;
-    background-color: #333333;
-    background-color: #800020;
+    /* Buttons (learn more) and Headings */
+    
+
+    /* Charcoal Gray */
+    background-color: #333333; 
+    /* body text or background or cards */
+
+
+    /* Burgundy */
+    background-color: #800020; 
+    /* secondary background for sections like:
+    "About me" or "Vision & Plans"
+    Can also be used for borders or hover effects */
 }
+
 .accent{
-    background-color: #FFFFFF;
-    background-color: #FFD700;
+    /* White */
+    background-color: #FFFFFF; 
+    /* main content background */
+
+
+    /*Gold*/
+    background-color: #FFD700; 
+    /* icons, links or subtle highlights */
+
+
+    /*Ivory*/
     background-color: #FFFFF0;
+    /* card backgrounds or alternative section backgrounds */
+
+
+    /*Golden Yellow*/
     background-color: #D4AF37;
+    /* decorative accents like: 
+    borders, underlines*/
 }
+
+
+/* EXAMPLE
+-----------------
+NAVIGATION BAR: 
+    #001F54 (navy blue) 
+    with #FFFFFF (white) text
+    and #FFD700 (gold) for hover effects or active links.
+
+
+HEADER SECTION:
+    #800020 (burgundy) background 
+    with #FFFFF0 (ivory) text 
+    and a #FFD700 button.
+
+
+MAIN CONTENT:
+    Cards: #FFFFF0 (ivory) background with #333333 (charcoal gray) text.
+    Buttons: #B22234 (crimson red) with #FFFFFF (white) text.
+
+
+FOOTER:
+    #333333 (charcoal gray) 
+    with #FFFFFF (white) text 
+    and #FFD700 (gold) icons.
+*/
